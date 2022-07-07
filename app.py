@@ -27,4 +27,4 @@ dash_app.layout = dbc.Container(
 )
 
 if __name__ == "__main__":
-    dash_app.run_server(host='20.119.0.18', port='80', debug=True)
+    dash_app.run_server(debug=True)
